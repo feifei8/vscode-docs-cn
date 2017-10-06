@@ -15,7 +15,7 @@ sudo apt-get install -f # 安装依赖
 
 安装.deb包将自动安装apt库和签名密钥，以使用常规系统机制启用自动更新。请注意，[下载页面](https://code.visualstudio.com/Download)上也提供了32位和.tar.gz的二进制文件。
 
-库和密钥也可以使用以下脚本手动安装：：
+库和密钥也可以使用以下脚本手动安装：
 
 ```bash
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
